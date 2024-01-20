@@ -16,6 +16,7 @@
     </header>
 
 
+
     <nav>
         <a href="index.html">Startseite</a>
         <a href="grundlage.html">Grundlage</a>
@@ -24,173 +25,211 @@
         <a href="vua.html">Vergleich und Aussagenlogik </a>
     </nav>
 
-    <h2>Zahlensysteme</h2>
 
+    <section>
 
 
-    <table>
 
-        <thead>
 
-            <tr>
 
-                <th>Dezimalwert</th>
+        <h2>Zeichencodenummern der Operatoren</h2>
 
-                <th colspan="8">Exponent zur Basis 2</th>
 
-                <th>Binärzahl</th>
 
-            </tr>
+        <table>
 
-        </thead>
+            <thead>
 
-        <tbody>
+                <tr>
 
-            <tr>
+                    <th>Zeichen</th>
 
-                <td></td>
+                    <th>Entität hexadezimal</th>
 
-                <td>7</td>
+                    <th>Entität dezimal</th>
 
-                <td>6</td>
+                </tr>
 
-                <td>5</td>
+            </thead>
 
-                <td>4</td>
+            <tbody>
 
-                <td>3</td>
+                <tr>
 
-                <td>2</td>
+                    <td>¬</td>
 
-                <td>1</td>
+                    <td>&amp;#x00AC;</td>
 
-                <td>0</td>
+                    <td>&amp#172;</td>
 
-                <td></td>
+                </tr>
 
-            </tr>
+                <tr>
 
-            <tr>
+                    <td>∧</td>
 
-                <td></td>
+                    <td>&amp;#x2227;</td>
 
-                <td>128</td>
+                    <td>&amp;#8743;</td>
 
-                <td>64</td>
+                </tr>
 
-                <td>32</td>
+                <tr>
 
-                <td>16</td>
+                    <td>∨</td>
 
-                <td>8</td>
+                    <td>&amp;#x2228;</td>
 
-                <td>4</td>
+                    <td>&amp;#8744;</td>
 
-                <td>2</td>
+                </tr>
 
-                <td>1</td>
+                <tr>
 
-                <td></td>
+                    <td>⊻</td>
 
-            </tr>
+                    <td>&amp;#x22BB;</td>
 
-            <tr>
+                    <td>&amp;#8883;</td>
 
-                <th>222<sub>10</sub></th>
+                </tr>
 
-                <td>1</td>
+                <tr>
 
-                <td>1</td>
+                    <td>=</td>
 
-                <td>0</td>
+                    <td>&amp;#x003D;</td>
 
-                <td>1</td>
+                    <td>&amp;#61;</td>
 
-                <td>1</td>
+                </tr>
 
-                <td>1</td>
+                <tr>
 
-                <td>1</td>
+                    <td>≠</td>
 
-                <td>0</td>
+                    <td>&amp;#x2260;</td>
 
-                <td>11011110<sub>2</sub></td>
+                    <td>&amp;#8800;</td>
 
-            </tr>
+                </tr>
 
-            <tr>
+                <tr>
 
-                <th>111<sub>10</sub></th>
+                    <td>≤</td>
 
-                <td>0</td>
+                    <td>&amp;#x2264;</td>
 
-                <td>1</td>
+                    <td>&amp;#8804;</td>
 
-                <td>1</td>
+                </tr>
 
-                <td>0</td>
+                <tr>
 
-                <td>1</td>
+                    <td>≥</td>
 
-                <td>1</td>
+                    <td>&amp;#x2265;</td>
 
-                <td>1</td>
+                    <td>&amp;#8805;</td>
 
-                <td>1</td>
+                </tr>
 
-                <td>01101111<sub>2</sub></td>
+                <tr>
 
-            </tr>
+                    <td>⇒</td>
 
-            <tr>
+                    <td>&amp;#x21D2;</td>
 
-                <th>55<sub>10</sub></t>
+                    <td>&amp;#8658;</td>
 
-                <td>0</td>
+                </tr>
 
-                <td>0</td>
+                <tr>
 
-                <td>1</td>
+                    <td>⇔</td>
 
-                <td>1</td>
+                    <td>&amp;#x21D4;</td>
 
-                <td>0</td>
+                    <td>&amp;#8660;</td>
 
-                <td>1</td>
+                </tr>
 
-                <td>1</td>
+            </tbody>
 
-                <td>1</td>
+        </table>
 
-                <td>00110111<sub>2</sub></td>
 
-            </tr>
 
-        </tbody>
+        <h2> Vergleichsausdruck</h2>
 
-    </table>
+        <div class="expression">
 
+            (A . B) + (C + D) ≤ (E ⇒ F)
 
+        </div>
 
-    <h3>Umrechnung von Dezimal zu Binär</h3>
 
 
+        <h2> logischer Ausdruck</h2>
 
+        <div class="expression">
 
+            (P ∧ Q) ∨ ( ¬R + S) ⇒ (T ≠ U)
 
+        </div>
 
 
 
+        <!DOCTYPE html>
 
+        <html lang="de">
 
+        <head>
 
+            <meta charset="UTF-8">
 
-    <a href="index.html">Startseite</a>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <title>logischer Ausdruck</title>
+
+            <style>
+                body {
+
+                    font-family: 'Arial', sans-serif;
+
+                    margin: 20px;
+
+                }
+
+
+
+                .expression {
+
+                    font-size: 18px;
+
+                    margin-top: 20px;
+
+                    background-color: #fff;
+
+                    padding: 10px;
+
+                    border-radius: 5px;
+
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+                }
+            </style>
+
+        </head>
+
+        <body>
+
+
+
+        </body>
+        <a href="index.html">Startseite</a>
 
     </section>
-
-
-
     <footer>
         <p>&copy; 2024 My Rich Content Website. All rights reserved.Muad :D</p>
     </footer>
