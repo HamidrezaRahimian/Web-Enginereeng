@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+    /* Light Grey */
+    color: #2d3436;
+    /* Dark Grey */
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Faded White */
+    padding: 8px;
+    /* Smaller padding */
+    text-align: center;
+}
+
+.lexikon-boxes {
+    display: flex;
+    align-items: left;
+    margin-top: 10px;
+    /* Smaller margin */
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.6);
+    /* Faded White */
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    /* Smaller padding */
+    margin: 5px;
+    /* Smaller margin */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 80px;
+    /* Smaller width */
+    text-align: center;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Slightly Faded White */
+}
+
+h1,
+h2 {
+    color: #2d3436;
+    /* Dark Grey */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    /* Smaller margin */
+}
+
+a {
+    color: #3498db;
+    /* Blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
