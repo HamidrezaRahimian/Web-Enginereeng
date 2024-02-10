@@ -1,0 +1,4 @@
+[href$=".pdf"] {
+    background: url(https://wierbicki.org/demo/img/pdf.png)100% 100% / 15px no-repeat;
+    padding-right: 20px;
+}
