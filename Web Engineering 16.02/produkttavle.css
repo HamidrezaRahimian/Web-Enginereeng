@@ -1,0 +1,21 @@
+table {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: black;
+    width: 200px;
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: black;
+    color: wheat;
+}
+
+
+th,
+td {
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+}

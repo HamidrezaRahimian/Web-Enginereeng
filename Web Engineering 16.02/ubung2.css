@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+}
+
+tr:first-child {
+    background-color: rgb(86, 86, 201);
+    color: white;
+}
+
+td,
+th {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(185, 185, 199);
+}

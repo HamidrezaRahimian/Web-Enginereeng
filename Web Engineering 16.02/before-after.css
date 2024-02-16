@@ -1,0 +1,10 @@
+span::before {
+    content: "King. ";
+    font-weight: bold;
+}
+
+span::after {
+    content: "\1F4BB";
+    font-weight: bold;
+
+}
