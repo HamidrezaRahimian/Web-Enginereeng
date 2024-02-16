@@ -1,0 +1,4 @@
+abbr::after {
+    content: "(" attr(title))";
+
+}
